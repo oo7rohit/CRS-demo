@@ -5,7 +5,6 @@ import com.flipkart.bean.Course;
 import com.flipkart.bean.Student;
 
 public interface CourseServiceInterface {
-
 	public void displayCourses(Student student);
 	public void insertCourse(Course course) ;
 	public void deleteCourse(int courseId);
