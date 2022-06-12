@@ -4,10 +4,6 @@ package com.flipkart.services;
 import com.flipkart.bean.Course;
 import com.flipkart.bean.Student;
 
-/** 
- * @desc this interface is implemented by CourseServiceOperation class
- * @author Anushka
- */
 public interface CourseServiceInterface {
 
 	public void displayCourses(Student student);
